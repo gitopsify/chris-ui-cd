@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- namespace.yaml
+- chris-ui-deployment.yaml
+- chris-ui-service.yaml
+- chris-ui-route.yaml

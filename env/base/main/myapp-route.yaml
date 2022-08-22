@@ -1,0 +1,11 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  labels:
+    app: chris-ui
+  name: chris-ui-route
+  namespace: chris-ui-development
+spec:
+  to:
+    kind: Service
+    name: chris-ui
