@@ -7,4 +7,4 @@ resources:
 - ../base/02-rolebindings
 images:
 - name: image-registry.openshift-image-registry.svc:5000/chris-ui-ci/chris-ui-runtime
-  newTag: a8d9-c52vv
+  newTag: c8a3-kt7bh
